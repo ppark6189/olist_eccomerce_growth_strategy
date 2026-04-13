@@ -6,21 +6,21 @@ __pycache__/
 dist/
 build/
 
-# Virtual environments
+# 가상 환경
 .venv/
 venv/
 ENV/
 env/
 
-# Jupyter
+# 주피터
 .ipynb_checkpoints/
 
-# OS / Editor
+# 운영체제 / 편집기
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# Logs / temp
+# 로그 / 임시 파일
 *.log
 *.tmp
