@@ -23,7 +23,6 @@
 ```text
 house_of_brazil/
 |-- data/          # Olist 원본 CSV 데이터
-|-- docs/          # 프로젝트 요약과 노트북 목록
 |-- notebooks/     # 깃허브 업로드용 정리 노트북
 |-- reports/       # 최종 보고서 요약
 |-- src/           # 재사용 가능한 유틸리티 코드
@@ -145,8 +144,6 @@ def load_csv(filename: str) -> pd.DataFrame:
 
 ## 최종 산출물
 
-- `docs/project_summary.md`: 프로젝트 전체 요약
-- `docs/notebook_inventory.md`: 노트북별 역할 정리
 - `reports/final_report_summary.md`: 최종 비즈니스 보고서 요약
 - `src/utils/data_paths.py`: 재사용 가능한 데이터 로더
 
@@ -159,4 +156,3 @@ def load_csv(filename: str) -> pd.DataFrame:
 - seaborn
 - plotly
 - Jupyter Notebook
-
